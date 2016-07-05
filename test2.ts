@@ -1,7 +1,7 @@
 module test
 {
     /**
-    * cacheAsBitmapµÄÌæ´ú·½°¸£¬½â¾öQQä¯ÀÀÆ÷ÔÚ1GÄÚ´æµÄ»úÆ÷ÉÏ×î¶àÄÜÊ¹ÓÃ20¸öCanvasµÄÏŞÖÆ
+    * cacheAsBitmapçš„æ›¿ä»£æ–¹æ¡ˆï¼Œè§£å†³QQæµè§ˆå™¨åœ¨1Gå†…å­˜çš„æœºå™¨ä¸Šæœ€å¤šèƒ½ä½¿ç”¨20ä¸ªCanvasçš„é™åˆ¶ 
     */
     class test2
     {
@@ -11,7 +11,7 @@ module test
         private _useNum: number;
 
         /**
-         * ¹¹Ôìº¯Êı
+         * æ„é€ å‡½æ•°
          */
         public constructor() {
             this._pool = [];
@@ -33,12 +33,12 @@ module test
         }
 
         /**
-         * ÊÇ·ñÊÇµÍ¶ËÊÖ»úµÄQQä¯ÀÀÆ÷
+         * æ˜¯å¦æ˜¯ä½ç«¯æ‰‹æœºçš„QQæµè§ˆå™¨
          * @returns {boolean}
          */
         private isLowerQQBrowser(): boolean {
             if (egret.MainContext.runtimeType == egret.MainContext.RUNTIME_HTML5 && navigator.userAgent.indexOf('MQQBrowser') != -1) {
-                //ÅĞ¶¨»úĞÍ£¬ÒòÎªÄÃ²»µ½ÄÚ´æĞÅÏ¢£¬ÏÖÔÚÖ»ÄÜ¸ù¾İ»úĞÍ½øĞĞÅĞ¶¨
+                //åˆ¤å®šæœºå‹ï¼Œå› ä¸ºæ‹¿ä¸åˆ°å†…å­˜ä¿¡æ¯ï¼Œç°åœ¨åªèƒ½æ ¹æ®æœºå‹è¿›è¡Œåˆ¤å®š
                 var arr: Array<string> = [
                     "2013022",
                     "Lenovo A630t",
@@ -60,7 +60,7 @@ module test
         }
 
         /**
-         * »ñÈ¡Ò»¸öegret.RenderTexture
+         * è·å–ä¸€ä¸ªegret.RenderTexture
          * @returns {egret.RenderTexture}
          */
         public pop(): egret.RenderTexture {
@@ -75,7 +75,7 @@ module test
         }
 
         /**
-         * »ØÊÕÒ»¸öegret.RenderTexture
+         * å›æ”¶ä¸€ä¸ªegret.RenderTexture
          * @param texture
          */
         public push(texture: egret.RenderTexture): void {
