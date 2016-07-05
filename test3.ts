@@ -17,7 +17,7 @@ module Test {
         private a: number = 1;
         private b: number = 1;
 
-        private Fn2_1(n: number): number//直接调用this 
+        private Fn2_1(n: number): number//直接调用this  
         {
 
             for (var i: number = 3; i <= n; i++) {
