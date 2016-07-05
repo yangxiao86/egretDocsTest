@@ -27,7 +27,7 @@ module Test {
             return this.b;
         }
 
-        private Fn2_2(n: number): number//先赋值作用域变量
+        private Fn2_2(n: number): number//先赋值作用域变量 
         {
 
             var a: number = this.a;
