@@ -8,16 +8,16 @@ module Test {
         public start(): void {
             var fn2_1T: number = egret.getTimer();
             this.Fn2_1(50000);
-            console.log(egret.getTimer() - fn2_1T);//ºÄÊ±£º54
+            console.log(egret.getTimer() - fn2_1T);//è€—æ—¶ï¼š54
             var fn2_2T: number = egret.getTimer();
             this.Fn2_2(50000);
-            console.log(egret.getTimer() - fn2_2T);//ºÄÊ±£º30
+            console.log(egret.getTimer() - fn2_2T);//è€—æ—¶ï¼š30
         }
 
         private a: number = 1;
         private b: number = 1;
 
-        private Fn2_1(n: number): number//Ö±½Óµ÷ÓÃthis
+        private Fn2_1(n: number): number//ç›´æŽ¥è°ƒç”¨this 
         {
 
             for (var i: number = 3; i <= n; i++) {
@@ -27,7 +27,7 @@ module Test {
             return this.b;
         }
 
-        private Fn2_2(n: number): number//ÏÈ¸³Öµ×÷ÓÃÓò±äÁ¿
+        private Fn2_2(n: number): number//å…ˆèµ‹å€¼ä½œç”¨åŸŸå˜é‡
         {
 
             var a: number = this.a;
