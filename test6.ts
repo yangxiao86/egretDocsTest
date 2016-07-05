@@ -5,7 +5,7 @@ module Test {
 
         }
 
-        //²âÊÔÔÚV8ÖĞ£¬64¸öÊôĞÔÓë64ÊôĞÔÒÔÉÏµÄĞÔÄÜ²î±ğ
+        //æµ‹è¯•åœ¨V8ä¸­ï¼Œ64ä¸ªå±æ€§ä¸64å±æ€§ä»¥ä¸Šçš„æ€§èƒ½å·®åˆ« 
         public start(): void {
             var obj: any = {};
 
@@ -78,7 +78,7 @@ module Test {
             obj.prop62 = "test";
             obj.prop63 = "test";
             obj.prop64 = "test";
-            //ºóĞøÆÁ±ÎÒÔÏÂÊôĞÔ
+            //åç»­å±è”½ä»¥ä¸‹å±æ€§
             obj.prop65 = "test";
             obj.prop66 = "test";
 
