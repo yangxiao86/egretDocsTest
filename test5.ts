@@ -6,7 +6,7 @@ module Test {
         }
 
         /**
-             * addChild 的高效实现，慎用
+             * addChild 鐨勯珮鏁堝疄鐜帮紝鎱庣敤 
              * @param container
              * @param child
              */
@@ -20,7 +20,7 @@ module Test {
         }
 
         /**
-         * addChildAt 的高效实现，慎用
+         * addChildAt 鐨勯珮鏁堝疄鐜帮紝鎱庣敤
          * @param container
          * @param child
          * @param index
@@ -35,7 +35,7 @@ module Test {
         }
 
         /**
-         * removeFromParent 的高效实现，慎用
+         * removeFromParent 鐨勯珮鏁堝疄鐜帮紝鎱庣敤
          * @param child
          */
         public removeFromParent(child: egret.DisplayObject): void {
@@ -47,7 +47,7 @@ module Test {
         }
 
         /**
-         * removeChildAt 的高效实现，慎用
+         * removeChildAt 鐨勯珮鏁堝疄鐜帮紝鎱庣敤
          * @param container
          * @param index
          */
@@ -61,7 +61,7 @@ module Test {
         }
 
         /**
-         * removeAllChild 的高效实现，慎用
+         * removeAllChild 鐨勯珮鏁堝疄鐜帮紝鎱庣敤
          * @param container
          */
         public removeAllChild(container: egret.DisplayObjectContainer): void {
