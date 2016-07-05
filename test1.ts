@@ -3,7 +3,7 @@
     class test1
     {
         /**
-        * cacheAsBitmap的替代方案，解决QQ浏览器在1G内存的机器上最多能使用20个
+        * cacheAsBitmap的替代方案，解决QQ浏览器在1G内存的机器上最多能使用20个 
         * Canvas的限制
         */
         private bug_qqBrowser_CanvasNum(): void
