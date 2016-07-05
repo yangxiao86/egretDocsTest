@@ -38,7 +38,7 @@ module test
          */
         private isLowerQQBrowser(): boolean {
             if (egret.MainContext.runtimeType == egret.MainContext.RUNTIME_HTML5 && navigator.userAgent.indexOf('MQQBrowser') != -1) {
-                //判定机型，因为拿不到内存信息，现在只能根据机型进行判定
+                //判定机型，因为拿不到内存信息，现在只能根据机型进行判定 
                 var arr: Array<string> = [
                     "2013022",
                     "Lenovo A630t",
