@@ -11,21 +11,23 @@
             "des":"介绍",
             "text":"wing分类"
          },
-         "children":[
-           {
-              "filename":"dragonbones.json",
-              "des":"介绍",
-              "text":"DB分类"
-           },
-           {
-              "filename":"wing.json",
-              "des":"介绍",
-              "text":"wing分类"
-           },
-          "isFolder":true,
-          "text":"安装二级分类",
-          "tooltip":"这是二级分类"
-         ]
+         {
+            "children":[
+            {
+                "filename":"dragonbones.json",
+                "des":"介绍",
+                "text":"DB分类"
+            },
+            {
+                "filename":"wing.json",
+                "des":"介绍",
+                "text":"wing分类"
+            }
+            ],
+            "isFolder":true,
+            "text":"安装二级分类",
+            "tooltip":"这是二级分类"
+         }
       ],
       "isFolder":true,
       "text":"安装一级分类",
