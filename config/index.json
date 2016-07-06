@@ -2,14 +2,14 @@
    {
       "children":[
          {
-            "filename":"xxx1.json",
+            "filename":"dragonbones.json",
             "des":"介绍",
             "text":"DB分类"
          },
          {
-            "filename":"xxx2.json",
+            "filename":"wing.json",
             "des":"介绍",
-            "text":"lark分类"
+            "text":"wing分类"
          }
         ]
     }
